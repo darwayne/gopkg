@@ -1,0 +1,6 @@
+.idea/
+.DS_STORE
+vendor/
+gopkg
+tmp/
+*-packr.go

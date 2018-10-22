@@ -1,0 +1,12 @@
+FROM postgres:9.6
+
+ENV POSTGRES_USER gopkg
+ENV POSTGRES_PASSWORD pass
+ENV POSTGRES_DB gopkg
+ENV PG_MAJOR 9.6
+ENV PG_VERSION 9.6.3-1.pgdg80+1
+
+USER postgres
+
+VOLUME /var/lib/postgresql/data
+EXPOSE 5432
